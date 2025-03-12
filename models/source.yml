@@ -1,0 +1,11 @@
+version: 2
+ 
+sources:
+    - name: google_s
+      description: This is a replica of the Postgres database used by our app
+      database: fivetran_d
+      schema: google_s
+      tables:
+          - name: emp
+            description: One record per customer.
+         
